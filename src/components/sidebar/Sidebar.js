@@ -3,14 +3,14 @@ import logo from '../../assets/myb-circle.svg';
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
     return (
-        <div classNameName={sidebarOpen ? 'sidebar-responsive' : ''} id="sidebar">
+        <div className={sidebarOpen ? 'sidebar-responsive' : ''} id="sidebar">
             <div className="sidebar__title">
                 <div className="sidebar__img">
                     <img src={logo} alt="logo" />
-                    <h1>MYB Chatbot</h1>
+                    <h1 className="user">MYB Chatbot</h1>
                 </div>
                 <i
-                    onclick="closeSidebar()"
+                    onClick={() => closeSidebar()}
                     className="fa fa-times"
                     id="sidebarIcon"
                 ></i>
