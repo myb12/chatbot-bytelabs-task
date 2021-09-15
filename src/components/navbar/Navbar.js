@@ -5,7 +5,7 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
     return (
         <div className="navbar">
             <div className="nav_icon" onClick={() => openSidebar()}>
-                <i class="fas fa-bars"></i>
+                <i className="fas fa-bars"></i>
             </div>
 
             <div className="navbar__left">
@@ -16,10 +16,10 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
 
             <div className="navbar__right">
                 <a href="#">
-                    <i class="fas fa-search"></i>
+                    <i className="fas fa-search"></i>
                 </a>
                 <a href="#">
-                    <i class="far fa-clock"></i>
+                    <i className="far fa-clock"></i>
                 </a>
                 <a href="#">
                     <img width="30" src={avatar} alt="" alt="Avatar" />
