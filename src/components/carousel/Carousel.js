@@ -117,7 +117,7 @@ export default class Responsive extends React.Component {
                         <div className="carousel-card">
                             <div className="card-body">
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0kzwKJ_lSEFKkQSEt5IvyFELh5Tv2l0TUCxECGDsoXb-VJLlVlYnOYfZtJtfmAIkYg4&usqp=CAU" alt="" />
-                                <h5 className="card-title">How Wicklewood’s Team of Two Used Tidio to Compete with Ikea.</h5>
+                                <h5 className="card-title">How Wicklewood’s Team of Two Used MYB to Compete with Ikea.</h5>
                             </div>
 
                             <div className="card-footer">
