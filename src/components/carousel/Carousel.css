@@ -79,6 +79,10 @@
   color: #007D96 !important;
 }
 
+.slick-dots li button:before {
+    color: #007D96 !important;
+}
+
 @media only screen and (max-width: 480px) {
     .carousel-card {
         min-width: 200px;

@@ -45,6 +45,12 @@
   padding: 10px;
   border-radius: 3px;
   margin-bottom: 5px;
+  transition: all 0.3s ease-out;
+}
+
+.sidebar__link:hover {
+  background: #007d963d;
+  color: #007D96;
 }
 
 .active_menu_link {
