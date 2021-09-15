@@ -1,0 +1,91 @@
+
+.news-feed-title{
+    margin-top: 50px;
+    font-size: 24px;
+    color: #2e4a66;
+}
+.slick-arrow{
+    color: black;
+}
+
+.slick-prev {
+    z-index: 100;
+    left: 20px !important;
+}
+.slick-next {
+    z-index: 100;
+    right: 20px !important;
+}
+
+.carousel-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 340px;
+    height: 100%;
+    width: 220px;
+    max-width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 5px 6px rgb(0 0 0 / 30%);
+    border-radius: 8px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    overflow: visible;
+    transition: all 0.28s cubic-bezier(0.15, 0, 0.15, 1) 0s;
+}
+
+.carousel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 6px rgb(0 0 0 / 60%);
+}
+
+ .card-body img {
+    height: 150px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-title{
+    margin: 1rem 0.5rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.card-footer {
+    padding: 1.5rem;
+    color: #007D96;
+    border-top: 1px solid rgba(108, 125, 159, 0.18);
+}
+
+.card-footer:hover {
+    cursor: pointer;
+}
+
+.slick-slider  {
+    margin: 20px;
+}
+
+.slick-prev:before {
+  color: #007D96 !important;
+}
+.slick-next:before {
+  color: #007D96 !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel-card {
+        min-width: 200px;
+        width: 100%;
+    }
+
+    .slick-slider {
+        margin: 0 auto;
+    }
+}

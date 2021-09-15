@@ -1,6 +1,7 @@
 import Chart from '../charts/Chart';
 import hello from '../../assets/hello.svg'
 import './Main.css';
+import Responsive from '../carousel/Carousel';
 
 const Main = () => {
     return (
@@ -19,7 +20,7 @@ const Main = () => {
                 <div className="main__cards">
                     <div className="card">
                         <i
-                            className="fas fa-users fa-2x text-lightblue"
+                            className="fas fa-users fa-2x prilightblue"
                         ></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Visitors Visitors on your page</p>
@@ -103,7 +104,10 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
+                <Responsive />
             </div>
+
+
         </main>
     )
 }
