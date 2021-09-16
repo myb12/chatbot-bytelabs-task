@@ -1,6 +1,6 @@
 # Bytelabs Task - Chatbot platform user dashboard
 
-### This task was performedby Mohammad Yasin 
+### This task was performed by Mohammad Yasin 
 
 ## Live-link: https://myb-chatbot.netlify.app/ 
 
