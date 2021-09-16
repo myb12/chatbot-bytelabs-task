@@ -24,7 +24,7 @@ const Main = () => {
                             className="fas fa-users fa-2x text-lightblue"
                         ></i>
                         <div className="card_inner">
-                            <p className="text-primary-p">Visitors Visitors on your page</p>
+                            <p className="text-primary-p">Visitors on your page</p>
                             <span className="font-bold text-title">80</span>
                         </div>
                     </div>
